@@ -13,6 +13,7 @@
 		D959DAF526A169F9006D163E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D959DAF326A169F9006D163E /* Main.storyboard */; };
 		D959DAF726A169FA006D163E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D959DAF626A169FA006D163E /* Assets.xcassets */; };
 		D959DAFA26A169FA006D163E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D959DAF826A169FA006D163E /* LaunchScreen.storyboard */; };
+		D959DB0626A16CAB006D163E /* CarveController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D959DB0526A16CAB006D163E /* CarveController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D959DAF626A169FA006D163E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D959DAF926A169FA006D163E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D959DAFB26A169FA006D163E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D959DB0526A16CAB006D163E /* CarveController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarveController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				D959DAED26A169F9006D163E /* AppDelegate.swift */,
 				D959DAEF26A169F9006D163E /* SceneDelegate.swift */,
 				D959DAF126A169F9006D163E /* ViewController.swift */,
+				D959DB0526A16CAB006D163E /* CarveController.swift */,
 				D959DAF326A169F9006D163E /* Main.storyboard */,
 				D959DAF626A169FA006D163E /* Assets.xcassets */,
 				D959DAF826A169FA006D163E /* LaunchScreen.storyboard */,
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D959DAF226A169F9006D163E /* ViewController.swift in Sources */,
+				D959DB0626A16CAB006D163E /* CarveController.swift in Sources */,
 				D959DAEE26A169F9006D163E /* AppDelegate.swift in Sources */,
 				D959DAF026A169F9006D163E /* SceneDelegate.swift in Sources */,
 			);
@@ -296,7 +300,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZHI.airTag;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -315,7 +319,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ZHI.airTag;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
